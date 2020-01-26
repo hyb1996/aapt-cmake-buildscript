@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(aapt_cmake_buildscript)
 
+include_directories($ENV{NDK}/sysroot/usr/include/arm-linux-androideabi)
 #纯头文件引用
 set(native_header
         ${CMAKE_SOURCE_DIR}/frameworks/native/include
