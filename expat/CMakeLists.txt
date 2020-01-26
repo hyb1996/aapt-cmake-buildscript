@@ -17,7 +17,7 @@ include_directories(
         ${expat_header}
 )
 
-set(expat_cflag "-Wall -Werror -Wmissing-prototypes -Wstrict-prototypes -Wno-unused-parameter -Wno-unused-function -Wno-missing-field-initializers -fexceptions -DHAVE_EXPAT_CONFIG_H -UWIN32_LEAN_AND_MEAN")
+set(expat_cflag "-Wall  -Wmissing-prototypes -Wstrict-prototypes -Wno-unused-parameter -Wno-unused-function -Wno-missing-field-initializers -fexceptions -DHAVE_EXPAT_CONFIG_H -UWIN32_LEAN_AND_MEAN")
 
 if(UNIX)
     set(expat_cflag "${expat_cflag} -fPIE -pie")

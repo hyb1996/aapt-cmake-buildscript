@@ -21,7 +21,7 @@ set(aapt_sources
         ${CMAKE_SOURCE_DIR}/frameworks/base/tools/aapt/Main.cpp
         )
 
-set(aapt_cflag "-Werror -Wall -Wno-format-y2k -DSTATIC_ANDROIDFW_FOR_TOOLS")
+set(aapt_cflag " -Wall -Wno-format-y2k -DSTATIC_ANDROIDFW_FOR_TOOLS")
 
 if(UNIX)
     set(aapt_cflag "${aapt_cflag} -fPIE -pie")

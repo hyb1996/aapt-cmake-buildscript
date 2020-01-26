@@ -20,7 +20,7 @@ set(aapt2_sources
         ${CMAKE_SOURCE_DIR}/frameworks/base/tools/aapt2/Main.cpp
         )
 
-set(aapt2_cflag "-Werror -Wall -Wno-unused-parameter")
+set(aapt2_cflag " -Wall -Wno-unused-parameter")
 
 if (WIN32)
     set(aapt2_cflag "${aapt2_cflag} -D_GNU_SOURCE=1 -D__STDC_FORMAT_MACROS -Wno-error=cpp -Wno-error=maybe-uninitialized -Wno-error=unused-variable -Wno-strict-aliasing -Wno-unused-but-set-variable")

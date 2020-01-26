@@ -40,7 +40,7 @@ set(libcxxabi_cflag "${libcxxabi_cflag} ${global_libcxx_cxxflags}")
 #添加宏定义，目的是为了移除一部分实现，如断言，否则编译成功，执行可能有问题
 set(libcxxabi_cflag "${libcxxabi_cflag} -DNDEBUG -UDEBUG")
 
-set(libcxxabi_cxxflag "${libcxxabi_cflag} -std=gnu++14 -fexceptions -Wall -Wextra -Wno-unused-function -Werror")
+set(libcxxabi_cxxflag "${libcxxabi_cflag} -std=gnu++14 -fexceptions -Wall -Wextra -Wno-unused-function ")
 
 if(UNIX AND NOT APPLE)
     set(libcxxabi_cxxflag "${libcxxabi_cxxflag} -Wno-macro-redefined")

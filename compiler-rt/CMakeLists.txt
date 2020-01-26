@@ -159,7 +159,7 @@ if(UNIX)
     list(APPEND compiler_rt_sources  ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/enable_execute_stack.c)
 endif()
 
-set(compiler_rt_cflag "-Wno-unused-parameter -Werror")
+set(compiler_rt_cflag "-Wno-unused-parameter ")
 
 if(UNIX)
     set(compiler_rt_cflag "${compiler_rt_cflag} -fPIE -pie")

@@ -31,7 +31,7 @@ include_directories(
         ${zlib_header}
 )
 
-set(libpng_cflag "-std=gnu89 -Wall -Werror -Wno-unused-parameter -DPNG_INTEL_SSE_OPT=1")
+set(libpng_cflag "-std=gnu89 -Wall  -Wno-unused-parameter -DPNG_INTEL_SSE_OPT=1")
 
 if(UNIX)
     set(libpng_cflag "${libpng_cflag} -fPIE -pie")

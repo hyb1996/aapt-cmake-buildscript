@@ -32,7 +32,7 @@ elseif(UNIX)
     list(APPEND liblog_host_sources  ${CMAKE_SOURCE_DIR}/system/core/liblog/event_tag_map.cpp)
 endif()
 
-set(liblog_cflag "-DFAKE_LOG_DEVICE=1 -Werror -fvisibility=hidden -DLIBLOG_LOG_TAG=1006 -DSNET_EVENT_LOG_TAG=1397638484")
+set(liblog_cflag "-DFAKE_LOG_DEVICE=1  -fvisibility=hidden -DLIBLOG_LOG_TAG=1006 -DSNET_EVENT_LOG_TAG=1397638484")
 
 if(UNIX)
     set(liblog_cflag "${liblog_cflag} -fPIE -pie")

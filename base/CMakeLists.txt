@@ -41,7 +41,7 @@ if(UNIX AND NOT APPLE)
     )
 endif()
 
-set(base_cflag "-Wall -Werror -Wextra")
+set(base_cflag "-Wall  -Wextra")
 
 if(WIN32)
     set(base_cflag "${base_cflag} -Wno-error=unused-parameter -D__STDC_FORMAT_MACROS")

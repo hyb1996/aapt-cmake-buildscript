@@ -10,7 +10,7 @@ set(aapt2_jni_sources
         ${CMAKE_SOURCE_DIR}/frameworks/base/tools/aapt2/jni/aapt2_jni.cpp
         )
 
-set(aapt2_jni_cflag "-Werror -Wall -Wno-unused-parameter")
+set(aapt2_jni_cflag " -Wall -Wno-unused-parameter")
 
 if (WIN32)
     set(aapt2_jni_cflag "${aapt2_jni_cflag} -D__STDC_FORMAT_MACROS -Wno-error=maybe-uninitialized -Wno-error=unused-variable")

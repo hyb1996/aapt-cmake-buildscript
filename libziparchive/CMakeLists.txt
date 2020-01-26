@@ -12,7 +12,7 @@ set(libziparchive_sources
         ${CMAKE_SOURCE_DIR}/system/core/libziparchive/zip_writer.cc
         )
 
-set(libziparchive_cflag "-DZLIB_CONST -Werror -Wall -D_FILE_OFFSET_BITS=64")
+set(libziparchive_cflag "-DZLIB_CONST  -Wall -D_FILE_OFFSET_BITS=64")
 
 if(WIN32)
     set(libziparchive_cflag "${libziparchive_cflag} -mno-ms-bitfields -D_GNU_SOURCE=1 -D__STDC_FORMAT_MACROS -Wno-error=strict-aliasing -Wno-error=unused-variable")

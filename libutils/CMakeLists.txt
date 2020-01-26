@@ -29,7 +29,7 @@ set(libutils_sources
         ${CMAKE_SOURCE_DIR}/system/core/libutils/misc.cpp
         )
 
-set(libutils_cflag "-Wall -Werror -DLIBUTILS_NATIVE=1")
+set(libutils_cflag "-Wall  -DLIBUTILS_NATIVE=1")
 
 if(UNIX)
     set(libutils_cflag "${libutils_cflag} -fPIE -pie")
