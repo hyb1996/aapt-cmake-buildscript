@@ -51,7 +51,7 @@ if (WIN32)
 endif ()
 
 if (UNIX)
-    set(libcutils_cflag "${libcutils_cflag} -fPIE -pie")
+    set(libcutils_cflag "${libcutils_cflag} -fPIE -fPIC -pie")
 endif ()
 
 #aosp中没有此编译选项

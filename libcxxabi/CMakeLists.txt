@@ -31,7 +31,7 @@ set(libcxxabi_sources
 set(libcxxabi_cflag "")
 
 if(UNIX)
-    set(libcxxabi_cflag "${libcxxabi_cflag} -fPIE -pie")
+    set(libcxxabi_cflag "${libcxxabi_cflag} -fPIE -fPIC -pie")
 endif()
 
 #启用libcxx

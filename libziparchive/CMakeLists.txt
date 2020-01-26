@@ -19,7 +19,7 @@ if(WIN32)
 endif()
 
 if(UNIX)
-    set(libziparchive_cflag "${libziparchive_cflag} -fPIE -pie")
+    set(libziparchive_cflag "${libziparchive_cflag} -fPIE -fPIC -pie")
 endif()
 
 if(UNIX AND NOT APPLE)

@@ -27,7 +27,7 @@ if (WIN32)
 endif ()
 
 if(UNIX)
-    set(aapt2_cflag "${aapt2_cflag} -fPIE -pie")
+    set(aapt2_cflag "${aapt2_cflag} -fPIE -fPIC -pie")
 endif()
 
 if(UNIX AND NOT APPLE)

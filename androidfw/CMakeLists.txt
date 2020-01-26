@@ -32,7 +32,7 @@ set(androidfw_sources
 set(androidfw_cflag " -Wall -Wunused -Wunreachable-code -DSTATIC_ANDROIDFW_FOR_TOOLS")
 
 if(UNIX)
-    set(androidfw_cflag "${androidfw_cflag} -fPIE -pie")
+    set(androidfw_cflag "${androidfw_cflag} -fPIE -fPIC -pie")
 endif()
 
 if(WIN32)
