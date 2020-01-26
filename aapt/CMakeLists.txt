@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.6)
 project(aapt)
 
 if (UNIX AND NOT APPLE)
-    SET(CMAKE_C_COMPILER "clang")
-    SET(CMAKE_CXX_COMPILER "clang++")
+    SET(CMAKE_C_COMPILER "armv7a-linux-androideabi19-clang")
+    SET(CMAKE_CXX_COMPILER "armv7a-linux-androideabi19-clang++")
 endif ()
 
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -s")
