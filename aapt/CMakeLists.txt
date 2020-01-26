@@ -24,7 +24,7 @@ set(aapt_sources
 set(aapt_cflag "-Werror -Wall -Wno-format-y2k -DSTATIC_ANDROIDFW_FOR_TOOLS")
 
 if(UNIX)
-    set(aapt_cflag "${aapt_cflag} -fPIC")
+    set(aapt_cflag "${aapt_cflag} -fPIE -pie")
 endif()
 
 if(UNIX AND NOT APPLE)

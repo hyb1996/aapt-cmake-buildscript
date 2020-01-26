@@ -35,7 +35,7 @@ endif()
 set(liblog_cflag "-DFAKE_LOG_DEVICE=1 -Werror -fvisibility=hidden -DLIBLOG_LOG_TAG=1006 -DSNET_EVENT_LOG_TAG=1397638484")
 
 if(UNIX)
-    set(liblog_cflag "${liblog_cflag} -fPIC")
+    set(liblog_cflag "${liblog_cflag} -fPIE -pie")
 endif()
 
 if(UNIX AND NOT APPLE)

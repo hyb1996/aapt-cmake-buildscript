@@ -32,7 +32,7 @@ set(libutils_sources
 set(libutils_cflag "-Wall -Werror -DLIBUTILS_NATIVE=1")
 
 if(UNIX)
-    set(libutils_cflag "${libutils_cflag} -fPIC")
+    set(libutils_cflag "${libutils_cflag} -fPIE -pie")
 endif()
 
 #aosp中没有此编译选项
