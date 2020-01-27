@@ -144,7 +144,7 @@ set(compiler_rt_sources
          ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/udivmoddi4.c
          ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/udivmodsi4.c
          ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/udivmodti4.c
-         ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/udivsi3.c
+#         ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/udivsi3.c
          ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/udivti3.c
          ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/umoddi3.c
          ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/umodsi3.c

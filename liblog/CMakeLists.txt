@@ -18,6 +18,9 @@ set(liblog_sources
         ${CMAKE_SOURCE_DIR}/system/core/liblog/stderr_write.c
         ${CMAKE_SOURCE_DIR}/system/core/liblog/properties.c
         ${CMAKE_SOURCE_DIR}/system/core/liblog/event_tag_map.cpp
+${CMAKE_SOURCE_DIR}/system/core/liblog/logd_reader.c
+${CMAKE_SOURCE_DIR}/system/core/liblog/logd_writer.c
+${CMAKE_SOURCE_DIR}/system/core/liblog/pmsg_writer.c
         )
 
 set(liblog_host_sources
@@ -70,7 +73,7 @@ if(UNIX)
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m32")
     endif()
 endif()
-add_library(log STATIC ${liblog_sources} ${liblog_host_sources})
+add_library(log STATIC ${liblog_sources})
 
 if(UNIX AND NOT APPLE)
     target_link_libraries(log cxx cxxabi compiler_rt)

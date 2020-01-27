@@ -3,6 +3,8 @@ project(libpng)
 
 # Stardust Deleted
 
+# add_definitions(-DDPNG_ARM_NEON_OPT=0)
+
 set(libpng_sources
         ${CMAKE_SOURCE_DIR}/external/libpng/png.c
         ${CMAKE_SOURCE_DIR}/external/libpng/pngerror.c
@@ -21,6 +23,9 @@ set(libpng_sources
         ${CMAKE_SOURCE_DIR}/external/libpng/pngwutil.c
         ${CMAKE_SOURCE_DIR}/external/libpng/contrib/intel/intel_init.c
         ${CMAKE_SOURCE_DIR}/external/libpng/contrib/intel/filter_sse2_intrinsics.c
+        ${CMAKE_SOURCE_DIR}/external/libpng/arm/arm_init.c
+        ${CMAKE_SOURCE_DIR}/external/libpng/arm/filter_neon.S
+        ${CMAKE_SOURCE_DIR}/external/libpng/arm/filter_neon_intrinsics.c
         )
 
 include_directories(
