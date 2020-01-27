@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(aapt2_static)
 
-// Stardust Deleted
+# Stardust Deleted
 
 if (UNIX)
     add_custom_target(protobuffer_h

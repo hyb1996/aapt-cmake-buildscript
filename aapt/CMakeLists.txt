@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(aapt)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -s")
 set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O3")

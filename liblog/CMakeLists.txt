@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(liblog)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(liblog_sources
         ${CMAKE_SOURCE_DIR}/system/core/liblog/config_read.c

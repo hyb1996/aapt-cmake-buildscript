@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(libutils)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(libutils_sources
         ${CMAKE_SOURCE_DIR}/system/core/libutils/CallStack.cpp

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(libcutils)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(libcutils_sources
         ${CMAKE_SOURCE_DIR}/system/core/libcutils/config_utils.cpp

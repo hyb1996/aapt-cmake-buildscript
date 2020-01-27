@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(libpng)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(libpng_sources
         ${CMAKE_SOURCE_DIR}/external/libpng/png.c

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(androidfw)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(androidfw_sources
         ${CMAKE_SOURCE_DIR}/frameworks/base/libs/androidfw/ApkAssets.cpp

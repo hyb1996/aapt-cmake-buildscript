@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(compiler-rt)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(compiler_rt_sources
          ${CMAKE_SOURCE_DIR}/external/compiler-rt/lib/builtins/absvdi2.c

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(aapt2)
 
-// Stardust Deleted
+# Stardust Deleted
 
 message("CMAKE_C_COMPILER = ${CMAKE_C_COMPILER}")
 message("CMAKE_CXX_COMPILER = ${CMAKE_CXX_COMPILER}")

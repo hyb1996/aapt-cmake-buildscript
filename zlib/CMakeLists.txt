@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(zlib)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(zlib_sources
         ${CMAKE_SOURCE_DIR}/external/zlib/src/adler32.c

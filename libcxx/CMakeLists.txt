@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(libcxx)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(libcxx_sources
         ${CMAKE_SOURCE_DIR}/external/libcxx/src/algorithm.cpp

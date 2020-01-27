@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(aprotoc)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(aprotoc_sources
         ${CMAKE_SOURCE_DIR}/external/protobuf/src/google/protobuf/any.cc

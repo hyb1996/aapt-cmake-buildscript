@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(expat)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(expat_sources
         ${CMAKE_SOURCE_DIR}/external/expat/lib/loadlibrary.c

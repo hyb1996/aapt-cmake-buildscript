@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(libprotobuf)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(libprotobuf_sources
         ${CMAKE_SOURCE_DIR}/external/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc

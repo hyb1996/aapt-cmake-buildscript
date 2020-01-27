@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(aapt_static)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(aapt_static_sources
         ${CMAKE_SOURCE_DIR}/frameworks/base/tools/aapt/AaptAssets.cpp

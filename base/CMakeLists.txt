@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(base)
 
-// Stardust Deleted
+# Stardust Deleted
 
 set(base_sources
         ${CMAKE_SOURCE_DIR}/system/core/base/file.cpp
