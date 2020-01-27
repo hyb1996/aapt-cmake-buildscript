@@ -25,10 +25,8 @@ set(liblog_host_sources
 
 if(WIN32)
     list(APPEND liblog_host_sources ${CMAKE_SOURCE_DIR}/system/core/liblog/uio.c)
-elseif(ANDROID)
-    list(APPEND ${CMAKE_SOURCE_DIR}/system/core/liblog/properties.c ${CMAKE_SOURCE_DIR}/system/core/liblog/event_tag_map.cpp)
 elseif(UNIX)
-    list(APPEND liblog_host_sources  ${CMAKE_SOURCE_DIR}/system/core/liblog/event_tag_map.cpp)
+    list(APPEND ${CMAKE_SOURCE_DIR}/system/core/liblog/properties.c  ${CMAKE_SOURCE_DIR}/system/core/liblog/event_tag_map.cpp)
 endif()
 
 set(liblog_cflag "-DFAKE_LOG_DEVICE=1  -fvisibility=hidden -DLIBLOG_LOG_TAG=1006 -DSNET_EVENT_LOG_TAG=1397638484")
