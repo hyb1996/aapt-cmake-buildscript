@@ -38,6 +38,7 @@ elseif (UNIX)
             ${CMAKE_SOURCE_DIR}/system/core/libcutils/socket_network_client_unix.cpp
             ${CMAKE_SOURCE_DIR}/system/core/libcutils/sockets_unix.cpp
             ${CMAKE_SOURCE_DIR}/system/core/libcutils/str_parms.cpp
+            ${CMAKE_SOURCE_DIR}/system/core/libcutils/trace_host.cpp
             )
 endif ()
 
