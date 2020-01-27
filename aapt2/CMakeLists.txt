@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.6)
 project(aapt2)
 
-if (UNIX AND NOT APPLE)
-    SET(CMAKE_C_COMPILER "armv7a-linux-androideabi19-clang")
-    SET(CMAKE_CXX_COMPILER "armv7a-linux-androideabi19-clang++")
-endif ()
+// Stardust Deleted
+
+message("CMAKE_C_COMPILER = ${CMAKE_C_COMPILER}")
+message("CMAKE_CXX_COMPILER = ${CMAKE_CXX_COMPILER}")
 
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -s")
 set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O3")

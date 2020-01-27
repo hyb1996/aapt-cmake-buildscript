@@ -1,10 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(libziparchive)
 
-if (UNIX AND NOT APPLE)
-    SET(CMAKE_C_COMPILER "armv7a-linux-androideabi19-clang")
-    SET(CMAKE_CXX_COMPILER "armv7a-linux-androideabi19-clang++")
-endif ()
+// Stardust Deleted
 
 set(libziparchive_sources
         ${CMAKE_SOURCE_DIR}/system/core/libziparchive/zip_archive.cc
