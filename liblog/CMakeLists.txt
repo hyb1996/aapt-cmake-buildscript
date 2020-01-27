@@ -16,6 +16,7 @@ set(liblog_sources
         ${CMAKE_SOURCE_DIR}/system/core/liblog/logger_write.c
         ${CMAKE_SOURCE_DIR}/system/core/liblog/logprint.c
         ${CMAKE_SOURCE_DIR}/system/core/liblog/stderr_write.c
+        ${CMAKE_SOURCE_DIR}/system/core/liblog/properties.c
         )
 
 set(liblog_host_sources
