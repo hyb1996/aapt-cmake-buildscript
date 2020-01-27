@@ -45,7 +45,7 @@ if(WIN32)
 endif()
 
 if(UNIX)
-    set(base_cflag "${base_cflag} -fPIE -fPIC -pie")
+    set(base_cflag "${base_cflag} -fPIE -fPIC")
 endif()
 
 #aosp没有此编译选项

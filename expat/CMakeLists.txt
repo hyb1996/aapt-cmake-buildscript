@@ -17,7 +17,7 @@ include_directories(
 set(expat_cflag "-Wall  -Wmissing-prototypes -Wstrict-prototypes -Wno-unused-parameter -Wno-unused-function -Wno-missing-field-initializers -fexceptions -DHAVE_EXPAT_CONFIG_H -UWIN32_LEAN_AND_MEAN")
 
 if(UNIX)
-    set(expat_cflag "${expat_cflag} -fPIE -fPIC -pie")
+    set(expat_cflag "${expat_cflag} -fPIE -fPIC")
 endif()
 
 #添加宏定义，目的是为了移除一部分实现，如断言，否则编译成功，执行可能有问题

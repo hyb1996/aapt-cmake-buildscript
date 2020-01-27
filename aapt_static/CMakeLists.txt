@@ -36,7 +36,7 @@ if (WIN32)
 endif ()
 
 if(UNIX)
-    set(aapt_static_cflag "${aapt_static_cflag} -fPIE -fPIC -pie")
+    set(aapt_static_cflag "${aapt_static_cflag} -fPIE -fPIC")
 endif()
 
 string(TIMESTAMP VERSION "%Y%m%d%H%M%S")
