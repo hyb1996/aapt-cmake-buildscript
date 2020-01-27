@@ -67,5 +67,5 @@ endif()
 add_library(cxx STATIC ${libcxx_sources})
 
 if (UNIX AND NOT APPLE)
-    target_link_libraries(cxx rt pthread dl)
+    target_link_libraries(cxx dl)
 endif ()
