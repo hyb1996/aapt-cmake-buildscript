@@ -71,6 +71,7 @@ include_directories(
         ${libbacktrace_header}
         ${libcutils_header}
         ${libsystem_header}
+        ${libvndksupport_header}
 )
 
 #mac不参与下面三个库的编译，否则libaapt2_jni有问题
